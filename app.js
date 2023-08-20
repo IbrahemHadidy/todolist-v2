@@ -3,7 +3,6 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const app = express();
 const port = process.env.PORT || 3001;
-const date = require(__dirname + "/date.js");
 const _ = require('lodash');
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({
