@@ -15,7 +15,7 @@ async function main() {
 
     try {
 
-        await mongoose.connect('mongodb+srv://admin:admin123@cluster0.uxugupx.mongodb.net/todolistDB');
+        await mongoose.connect('mongodb+srv://admin:AGSYkJ76L5UL6rgt@cluster0.i5d2gro.mongodb.net/todolistDB');
 
         const itemsSchema = mongoose.Schema({
             name: String
